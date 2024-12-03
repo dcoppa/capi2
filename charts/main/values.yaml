@@ -1,0 +1,11 @@
+gitrepo: https://github.com/dcoppa/capi2.git
+gitbranch: main
+project: capi
+apps:
+  - name: eks-2
+    order: 0
+    server: in-cluster
+  - name: argocd-cluster-2
+    namespace: argocd
+    order: 0
+    server: in-cluster
